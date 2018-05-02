@@ -1,0 +1,170 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body, .full-height {
+  height: 100%;
+  margin: 0;
+  background: rgb(234, 236, 241);
+  font-family: 'Arvo', serif;
+
+ 
+}
+
+#titre {
+	font-size: 45px;
+	margin: auto;
+}	
+	
+
+.grid {
+	overflow: scroll;
+}
+
+.row {
+	display: flex;
+	flex: 1;
+  	flex-direction: row;
+}
+
+.col {
+	display: flex;
+  	flex: 1;
+  	flex-direction: column;
+ }
+
+ .row2 {
+ 	display: flex;
+ 	flex: 3.5;
+ 	flex-direction: row;
+ 	
+}
+
+.col2 {
+	display: flex;
+	flex: 0.8;
+	flex-direction: column;
+	
+}
+
+#img {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: auto;
+	
+}
+
+.infobulle {
+    position: absolute;   
+    visibility : hidden;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 10px;
+    
+}
+
+ #desc {
+   	max-width: 200px;
+
+}
+
+#epaule:hover{
+
+	background-color: red;
+}
+#coude:hover{
+
+	background-color: red;
+}
+#poignet:hover{
+
+	background-color: red;
+}
+#hanche:hover{
+	background-color: red;
+}
+
+#genou:hover{
+	background-color: red;
+}
+#cheville:hover{
+
+	background-color: red;
+}
+
+
+
+#cercle {
+	flex: 1;
+	position: absolute;
+}
+
+#epaule {
+	position: absolute;
+	margin-top: 145px;
+	margin-left:60px;
+	width:60px;
+	height:60px;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 50%;
+
+}
+
+#coude {
+	position: absolute;
+	margin-top: 225px;
+	margin-left:165px;
+	width:60px;
+	height:60px;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+
+#poignet {
+	position: absolute;
+	margin-top: 258px;
+	margin-left: 52px;
+	width:60px;
+	height:60px;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+
+#hanche {
+	position: absolute;
+	margin-top: 295px;
+	margin-left:135px;
+	width:60px;
+	height:60px;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+
+#genou {
+	position: absolute;
+	margin-top: 390px;
+	margin-left: 85px;
+	width:60px;
+	height:60px;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+
+#cheville {
+	position: absolute;
+	margin-top: 470px;
+	margin-left: 130px;
+	width:60px;
+	height:60px;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 50%;
+}
