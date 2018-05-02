@@ -5,7 +5,7 @@
 html, body, .full-height {
   height: 100%;
   margin: 0;
-  background: rgb(234, 236, 241);
+  background: rgb(239, 239, 239);
   font-family: 'Arvo', serif;
 
  
@@ -67,6 +67,7 @@ html, body, .full-height {
 }
 
  #desc {
+ 	padding-top: 50px;
    	max-width: 200px;
 
 }
